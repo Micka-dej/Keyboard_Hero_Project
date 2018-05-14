@@ -132,25 +132,13 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":11}],13:[function(require,module,exports) {
+},{"./bundle-url":11}],6:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":9}],6:[function(require,module,exports) {
-
-        var reloadCSS = require('_css_loader');
-        module.hot.dispose(reloadCSS);
-        module.hot.accept(reloadCSS);
-      
-},{"_css_loader":9}],5:[function(require,module,exports) {
-'use strict';
-
-require('flexboxgrid');
-
-require('./style/style.scss');
-},{"flexboxgrid":13,"./style/style.scss":6}],24:[function(require,module,exports) {
+},{"_css_loader":9}],24:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -273,5 +261,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id);
   });
 }
-},{}]},{},[24,5])
-//# sourceMappingURL=/dist/parcel.map
+},{}]},{},[24])
+//# sourceMappingURL=/dist/c720f407ffabd912723baabc2396cbb5.map

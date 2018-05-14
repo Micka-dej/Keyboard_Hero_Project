@@ -996,13 +996,27 @@ table {
 
 /* ./global/_reset.scss */
 /* ./global/_variables.scss */
-.header {
-  font-size: 1.4rem;
-  display: -ms-flexbox;
-  display: flex; }
-  @media (min-width: 768px) {
-    .header {
-      font-size: 1.6rem; } }
-  @media (min-width: 1200px) {
-    .header {
-      font-size: 2rem; } }
+.header-Title {
+  color: #50E3C2;
+  font-size: 46px;
+  margin-left: 2%;
+  margin-bottom: 2%; }
+
+.header-Number {
+  color: #50E3C2;
+  display: flex;
+  font-size: 23px; }
+
+.Container {
+  display: flex;
+  justify-content: space-around; }
+  .Container-Grid {
+    display: flex;
+    background-color: #212121;
+    width: 10%;
+    height: 100vh; }
+  .Container-GridBottom {
+    margin-top: 1px;
+    background-color: #212121;
+    width: 100%;
+    height: 100px; }
